@@ -20,8 +20,8 @@ async function getData() {
         listItems.push(li)
 
         li.innerHTML = `
-        <img src="${user.picture.medium}" alt="${user.name.first}"
-        <div class="user.info">
+        <img src="${user.picture.medium}" alt="${user.name.first}">
+        <div class="user-info">
             <h4>${user.name.first} ${user.name.last}</h4>
             <p>${user.location.city}, ${user.location.country}</p>
         </div>
